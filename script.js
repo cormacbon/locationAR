@@ -28,7 +28,7 @@ var models = [
     {
         url: './assets//EURO 2020/COP/COP_CableBridge_for_ITT.gltf',
         scale: '1.0 1.0 1.0',
-        rotation: '0 180 0',
+        rotation: '0 0 0',
         info: 'Cable Bridge, COP, HP 100/100',
     },
     {
