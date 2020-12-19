@@ -19,14 +19,15 @@
     <a-scene
         vr-mode-ui="enabled: false"
 		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'
+        stats embedded arjs='trackingMethod: best;'>
 
         <a-camera gps-camera rotation-reader></a-camera>
         <a-marker-camera type='pattern' patternUrl='./assets/markers/skillzy_girl.patt'></a-marker-camera>
         <a-marker type='pattern' patternUrl='./assets/markers/skillzy_girl.patt'>
             <a-sphere position="0 0.5 0" radius="0.5" color="#EF2D5E"></a-sphere>
         </a-marker>
-
+        <a-entity camera></a-entity>
 	</a-scene>
   <div class="centered">
     <button data-action="change"></button>
