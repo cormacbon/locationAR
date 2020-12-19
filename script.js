@@ -29,11 +29,11 @@ var models = [
         url: './assets//EURO 2020/COP/COP_CableBridge_for_ITT.gltf',
         scale: '0.2 0.2 0.2',
         rotation: '0 180 0',
-        info: 'Cable Bridge, Lv. 80, HP 100/100',
+        info: 'Cable Bridge, COP, HP 100/100',
     },
     {
         url: './assets/articuno/scene.gltf',
-        scale: '0.08 0.08 0.08',
+        scale: '0.8 0.8 0.8',
         rotation: '0 180 0',
         info: 'Articuno, Lv. 80, HP 100/100',
     },
